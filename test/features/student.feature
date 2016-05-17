@@ -39,4 +39,7 @@ Feature: Search string
     When I browse to the "/"
     When I enter "rr" into "input.search" field
     Then I should see "Gutierrez" in "firstName"
+    When I browse to the "/"
+    When I enter "se" into "input.search" field
+    Then I should see "Rose in "lastName"
 
